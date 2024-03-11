@@ -1,5 +1,4 @@
-import os, pandas as pd, numpy as np, matplotlib as mpl, matplotlib.pyplot as plt, seaborn as sns, missingno as msno, statsmodels.api as sm
-import random
+import numpy as np
 
 def stratifiedCV(df,amountofFolds,treatTrain,target):
     seed = 100

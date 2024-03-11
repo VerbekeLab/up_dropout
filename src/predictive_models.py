@@ -1,18 +1,7 @@
-import os, pandas as pd, numpy as np, matplotlib as mpl, matplotlib.pyplot as plt, missingno as msno, statsmodels.api as sm
-from sklearn import preprocessing
-from sklearn.model_selection import StratifiedKFold
 from sklearn.linear_model import LogisticRegression
-from scipy import stats
-from xgboost import XGBRegressor
-from imblearn.over_sampling import SMOTE
-from sklearn.feature_selection import RFE
 from sklearn import metrics
-from sklearn.metrics import roc_auc_score
-from sklearn.metrics import roc_curve
-from itertools import chain
 from sklearn.ensemble import RandomForestClassifier
 import seaborn as sns; sns.set()
-from sklearn.externals import joblib
 import xgboost as xgb
 
 def predictive_model(df_train,predictors,target,model):

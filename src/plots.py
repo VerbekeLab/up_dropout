@@ -1,4 +1,4 @@
-import os, pandas as pd, numpy as np, matplotlib as mpl, matplotlib.pyplot as plt, seaborn as sns, missingno as msno, statsmodels.api as sm
+import pandas as pd, numpy as np, matplotlib.pyplot as plt, seaborn as sns
 
 def plot_treatments(df_path,docu_path):
     df = pd.read_csv(df_path, sep = ',')
