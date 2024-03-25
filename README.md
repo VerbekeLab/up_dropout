@@ -5,16 +5,16 @@ Uplift modeling is an approach for estimating the incremental effect of an actio
 ## Repository structure
 This repository is organised as follows:
 ```bash
-|- src/
-    |– _init_
-    |- bias_check
-    |- plots
-    |- predictive_models
-    |- preprocess
-    |- stratified_cv
-    |– uplift_models
-|- experiments/
+|- notebooks/
     |- main.ipynb
+|- experiments/
+    |– _init_.py
+    |- bias_check.py
+    |- plots.py
+    |- predictive_models.py
+    |- preprocess.py
+    |- stratified_cv.py
+    |– uplift_models.py
 ```
 
 ## Installing
