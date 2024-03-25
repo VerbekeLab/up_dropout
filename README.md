@@ -7,7 +7,7 @@ This repository is organised as follows:
 ```bash
 |- notebooks/
     |- main.ipynb
-|- experiments/
+|- src/
     |– _init_.py
     |- bias_check.py
     |- plots.py
