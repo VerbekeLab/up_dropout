@@ -29,7 +29,7 @@ Please cite our paper and/or code as follows:
 
 ```tex
 
-@article{olaya2020uplift,
+@article{olaya2020,
   title={Uplift Modeling for preventing student dropout in higher education},
   author={Olaya, Diego and V{\'a}squez, Jonathan and Maldonado, Sebasti{\'a}n and Miranda, Jaime and Verbeke, Wouter},
   journal={Decision Support Systems},
